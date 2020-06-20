@@ -1,0 +1,336 @@
+/*
+ * BAT Vision Plus Back Office Projesi
+ * Versiyon Geçmiþi Dökümaný
+ *
+ * [Yeni]: Yeni özellikler
+ * [Düzeltme]: Hata düzeltmeleri
+ * [Güncelleme]: Kod üzerinde iyileþtirme, optimizasyon iþlemleri
+ *
+ */
+ 
+ BAT 2.0.0022
+ ---------------------------------------
+ HK : [Düzeltme] Veri aðacý tanýmlarýnda yeni kayýtta hata vardý.
+ HK : [Düzeltme] CSS linkleri rel. verilirken excele aktar çalýþmýyordu, düzeltildi.
+ 
+ 
+ BAT 2.0.0021
+ ---------------------------------------
+ HK : [Düzeltme] Kontrat ana kayýtlarýnda varlýklar tabýnýn içi dolmuyordu.
+ 
+ 
+ BAT 2.0.0020
+ ---------------------------------------
+ HK : [Düzeltme] Zincir maðaza ana kayýtlarý, güncelle - kaydette hata alýnýyordu.
+ 
+ 
+ BAT 2.0.0019
+ ---------------------------------------
+ HK : [Güncelleme] Terminal loglarýndaki kullanýcý adlarý sýralý geliyor.
+ HK : [Güncelleme] Stok düzenlemede silinmiþ ürünlerde geliyordu ve combo labellarý databaseden alýnýyor artýk.
+ 
+ 
+ BAT 2.0.0018
+ ---------------------------------------
+ HK : [Güncelleme] Mal kabulde aramada fatura no belge no alanlarýna göre arama yapýlamýyordu.
+ HK : [Güncelleme] S item erkandan ürün ve müþteri kaydediyordu. procedure çalðýrýlýyor artýk.
+ 
+ 
+ BAT 2.0.0017
+ ---------------------------------------
+ HK : [Güncelleme] AutoCompleteEdit e unicode desteði.
+ 
+ 
+ BAT 2.0.0016
+ ---------------------------------------
+ HK : [Güncelleme] Sayfalardaki CSS ve JS linklerinin teke indirilmesi.
+ 
+ 
+ BAT 2.0.0015
+ ---------------------------------------
+ HK : [Güncelleme] AjaxCompletEdit' e loading görüntüsü eklenmesi.
+ 
+ 
+ BAT 2.0.0014
+ ---------------------------------------
+ HK : [Güncelleme] Birden fazla mal kabulu yapýlmasýný önlemek için constrait konuldu.
+ HK : [Güncelleme] Dip toplam indirimdeki oran dönüþümünün sapmalarýný azaltmak için indirim oraný virgülden sonra 4 hane ye çýkarýldý. Gösterirken 2 hane gösteriliyor.
+ HK : [Düzeltme] Sadakat uygulamasýnda onceki uygulama pasife alýndýðýnda bile yeni girilemiyo. eskisi pasifse kontrol edilmeyecek
+ HK : [Güncelleme] Analiz sorularýna dil desteði.
+ HK : [Düzeltme] Þubeye yeni lokasyon eklemede hata alýnýyordu.
+ HK : [Güncelleme] Fatura / Sipariþ / Ýrsaliye kampanyada artýk sysdate deðil dokuman tarihi kontrolü yapýyor.
+ HK : [Güncelleme]Uzun-Kýsa Fatura ayrýmý price list category deki description_10 alaný üzerinden yapýlýyor.(1 uzun, 10 kýsa )
+ HK : [Düzeltme] Satýþ sipariþi -> fatura dönüþümünde miktar deðiþtirilemiyordu (deðiþiyordu fakat sayfa postbackde eski deðerler atanýyordu.)
+ HK : [Düzeltme] Satýþa açýk, sipariþe açýk kontrollerinin fatura ve sipariþte yapýlmasý.(AutoCompletEdit & PopUp)
+ HK : [Güncelleme] Populardaki lookup combolarýnda açýklama lookup_table daki description alanýndan gelsin 
+ 
+ 
+ BAT 2.0.0013
+ ---------------------------------------
+ HK : [Düzeltme] Ingilizce eksiklerin tamamlanmasý Rev. 5
+ 
+ 
+ BAT 2.0.0012
+ ---------------------------------------
+ HK : [Düzeltme] Ingilizce eksiklerin tamamlanmasý Rev. 4, Bug Fix
+ 
+ 
+ BAT 2.0.0011
+ ---------------------------------------
+ HK : [Düzeltme] Ingilizce eksiklerin tamamlanmasý Rev. 3, Bug Fix
+ 
+ 
+ BAT 2.0.0010
+ ---------------------------------------
+ HK : [Düzeltme] Ingilizce eksiklerin tamamlanmasý Rev. 2
+ 
+ 
+ BAT 2.0.0009
+ ---------------------------------------
+ HK : [Düzeltme] Ingilizce eksiklerin tamamlanmasý
+ 
+ 
+ BAT 2.0.0008
+ ---------------------------------------
+ HK : [Düzeltme] Araç ana kayýtlarýndan oluþturulan þube lokasyon kaydýnýn CUSTOMER_LOCATION_ID alaný boþ kaydediliyordu, düzeltildi.
+ 
+ 
+ BAT 2.0.0007
+ ---------------------------------------
+ HK : [Güncelleme] aspx dosyalarýnýn encoding'i utf-8 yapýlarak kaydedildi.
+ 
+ 
+ BAT 2.0.0006
+ ---------------------------------------
+ HK : [Güncelleme] AutoCompleteEdit kontrolünün ie6.0 uyumluluðu saðlanmasý
+ HK : [Düzeltme] fatura ve sipariþ ekranlarýnýn ie6.0 sorunlarýnýn düzeltilmesi
+ 
+ 
+ BAT 2.0.0005
+ ---------------------------------------
+ HK : [Düzeltme] Fatura kabullerinde yeni gelge için yeni fatura no üretilmesi
+ HK : [Düzeltme] Yükleme planýndaki eski yükleme planýný çeken sql düzeltildi.
+ 
+ 
+ BAT 2.0.0004
+ ---------------------------------------
+ HK : [Düzeltme] stok hareketlerinde pop up dönüþü detaylar disabled geliyordu.
+ 
+ 
+ BAT 2.0.0003
+ ---------------------------------------
+ HK : [Düzeltme] xml pathlerinin relative hale getirilmesi.
+ HK : [Düzeltme] AjaxDetailPanel kontrolündeki silme ile ilgili hatalarýn düzeltilmesi.
+ 
+ 
+ BAT 2.0.0002
+ ---------------------------------------
+ HK : [Düzeltme] Volume Promotion dan oluþan kampanyanýn güncellemeye kapatýlmasý
+ HK : [Düzeltme] Volume Promotion dan oluþan kampanyanýn pasif oluþma hatasýnýn düzeltilmesi
+ HK : [Güncelleme] Toplu dönüþtürmede ve normal dönüþtürmede deposu boþ olan sipariþlerin depo seçimi yapýlabilecek
+ HK : [Yeni] AutoCompleteEdit geliþtirilmesi ve formlara eklenmesi.
+ 
+ 
+ BAT 2.0.0001
+ ---------------------------------------
+ HK : [Yeni] .Net FrameWork 2.0 geçiþi, Ajax Kontrollerinin eklenmesi.
+ 
+ 
+ BAT 1.0.2868
+ ---------------------------------------
+ HK : [Güncelleme] SD kayýtlarýndaki oluþturma tarihi search'üne trim eklendi.
+ HK : [Güncelleme] Kayýt güncelleme için geçmiþ tarihli yetki verilemiyordu.
+ 
+  
+ BAT1.0.2867
+ ---------------------------------------
+ HK : [Güncelleme] Fatura/irsaliye/sipariþ ekranýnda dip toplam indririminin yüzde alanýný yanlýþ güncelliyorduk, düzeltildi
+ HK : [Güncelleme] Login ekranýndan sonra uygulama toolbarlarý olmayan yeni ekranda açýlýyor.
+ OFO: [Yeni] Müþteri pasife alýndýðýnda rotadan çýkarýlýp çýkarýlmamasý soruluyor.
+ 
+ 
+ BAT1.0.2866
+ ---------------------------------------
+ OFO: [Güncelleme] Ýade yönetiminde, iade güncellenirken eðer müþteri üzerinde indirim varsa o fiyatýn indirimlisi geliyor.(popupta) 
+ HK : [Güncelleme] Tüm search ekranlarýnda sayfalama, sayfa numaralarýyla yapýldý
+ HK : [Güncelleme] Satýlan ürünlerde Müþteri kriteri/ Deðer alaný alfabetik sýrayla getiriliyor
+ OFO: [Düzeltme] Cari Hesap Hareketlerinde info butonunda hata vardý, düzeltildi.
+ HK : [Güncelleme] SD Kayýtlarýnda Created Datetime alanýnýn arama ekranýna eklenmesi.
+ OFO: [Düzeltme] Mal Kabul ve Satýn alma Faturasýný gösterirken bedelsiz ürün tabýnýn eklenmesi.
+    
+    
+ BAT1.0.2865
+ ---------------------------------------
+ OFO: [Güncelleme] Info'da artýk tutar bilgisi de gösteriliyor.
+ HK : [Güncelleme] SD kayýtlarýnda CREATED_DATETIME alanýnýn gösterilmesi.
+ HK : [Güncelleme] Borç düzenlemede borç olarak REMAINDER deðil CREDIT_ACCOUNT_REMAINDER gösterilecek. (MC)
+ 
+  
+ BAT1.0.2864
+ ---------------------------------------
+ HK : [Güncelleme] Rota ekranýna yönetici combosu eklendi. Zorunlu.
+ HK : [Güncelleme] Müþteri ekranýnda detaylar tabýna aidiyet combosu eklendi.
+ HK : [Güncelleme] Tarih kontrollerinde yýl seçenekleri þimdiki yýl + 5 oldu.
+ HK : [Düzeltme] Varlýk ekranýndaki search kýsmýnda bulunan üretici, marka, model birbirine baðlý dolmalý
+ HK : [Düzeltme] Terminal loglarý ekranýnda ilk giriþte aktif þubenin personelleri gözükecek
+ 
+ BAT1.0.2863
+ ---------------------------------------
+ HK : [Yeni] Volume Promotion taným ekraný
+ HK : [Güncelleme] Terminal loglarýnda zip dosya adý gösterilmesi, aktif þubenin seçili gelmesi.
+ HK : [Güncelleme] Rota müþteri seçiminde yukarý ve aþaðý ok ile textboxlar arasýnda gezinebilme.
+ OFO : [Güncelleme] Kapalý faturalarý kapatan belgeler,tarihi infoda gösterildi.
+ 
+ BAT1.0.2862
+ ---------------------------------------
+ HK : [Yeni] Mal kabul irsaliyesine zorunlu SAP numarasý alaný eklendi
+ OFO : [Güncelleme] Günlük performans takibi ekranýna rota tipi ve personel tipi filtresinin eklenmesi
+ HK : [Güncelleme] Ana kayýtlar altýndaki sayfalarýn search gridinin sayfalamasý numerik yapýldý.
+ 
+ 
+ BAT1.0.2861
+ ---------------------------------------
+ HK : [Güncelleme] Süper rota tüm þubelerden girilebiliyor.
+ HK : [Güncelleme] SAP Entegrasyon sayfalarýnýn session larý kaldýrýldý.
+ HK : [Düzeltme] Gereksiz referanslar kaldýrýldý. (Crystal vs..)
+  
+  
+ BAT1.0.2860
+ ---------------------------------------
+ OFO : [Yeni] Kontrat bütçesi ekraný
+ HK : [Yeni] Kontrat tanýmýnda diptoplam indirimi.
+ HK : [Güncelleme] Fatura/ Sipariþ de dip toplam indiriminin tutarsal girilmesi.
+ HK : [Yeni] Info ekranýnda referans belge gösterilmesi
+ HK : [Güncelleme] Satýlabilir ürünleri þube bazýnda tanýmlayabilme.
+ HK : [Yeni] Rota ekranýnda rota sýralama butonu.
+ OFO : [Güncelleme] Þube ana kayýtlarýnda bloklalma / blok kaldýrma, ve yeni detay paneli.
+ OFO : [Güncelleme] Ýrsaliye print'ine mastercase cinsinden toplamlarýn eklenmesi.
+ 
+
+ BAT1.0.2859
+ ---------------------------------------
+ HK : [Güncelleme] Rota dengelme yaparken sýralarý eskisinden alabilme.
+ HK : [Yeni] SAP Consignment kayýt entegrasyonu.
+ HK : [Düzeltme] Servis faturalarý için kayýt kapama çalýþmýyor
+ HK : [Düzeltme] Potansiyel customer da customer_record_type ý müþteri gelsin 
+ HK : [Güncelleme] Terminal loglarý operation_date e göre search edilsin.
+ HK : [Düzeltme] Portal da silinmiþ mesajlar gözüküyordu
+ HK : [Güncelleme] SAP SD güncelleme
+ 
+ 
+ BAT1.0.2858
+ ---------------------------------------
+ HK : [Düzeltme] Menuden queryString alan sayfalarý yeni pencerede aç ile açtýðýmýzda page session code larý uçuyor, dolayýsýyla yetkileri de. 
+ HK : [Güncelleme] Sonucu olan analazlerin müþteri, þube ve tarih alanlarý da güncellenebiliyor. 
+ HK : [Yeni] Login in page loadunda GC force ediliyor. 
+ HK : [Güncelleme] Terminal loglarý ekranýnýn zorunlu alanarý deðiþti, þubeler yetkiye göre doluyor
+ HK : [Güncelleme] DynaCube raporlarýnda oluþan .cub dosyasý user_id.cub þeklinde oluþturuluyor. Silinme kalktý.
+ HK : [Düzeltme] Distributore kesilen satýþ faturasýnýn onayýnda tanýmlý kullanýcý indirimi varsa hatalý hesaplýyordu
+ 
+ 
+ BAT1.0.2857
+ ---------------------------------------
+ HK : [Düzeltme] SD kayýtlarýnda PO number max almýyordu, alan nvarchar, to_number ile düzeltildi.
+ HK : [Güncelleme] Gelen mesajlara silme eklendi.
+ HK : [Güncelleme] SAP entegrasyon web servisini kullanýrken timeout süresi 10dk. yapýldý.
+ 
+ 
+ BAT1.0.2856
+ ---------------------------------------
+ HK : [Güncelleme] DynamiCube view ekranýnda ek filtre 1 , ek filtre 2 alanlarýnýn eklenmesi.
+ HK : [Yeni] 320 - Borç / 320- alacak dekontu nakit odeme tipleri.
+ HK : [Güncelleme] Kontrat ana kayýtlarýnda ERP dokuman tipi zorunlu oldu.
+ HK : [Yeni] Stok hareketlerinde hareket tipi = Ek yükleme olan kayýtlarda print (irsaliye formatýnda).
+ HK : [Yeni] Stok Hareketlerinde hareket tipi = ek yükleme seçildiðinde, giriþ deposu rotadan seçilen deðere göre doluyor.
+ HK : [Düzeltme] Alým iade irsaliyesi/ alým iade faturasý kabulde kdv tutarý yanlýþ hesaplanýyordu.
+ HK : [Güncelleme] Portal ekranlarýna dil desteði.
+ HK : [Güncelleme] Personelden Alacaklar Detay Raporu ve müþteri cari hesap dökümü raporlarýna tarih aralýðý filtresi eklendi.
+ OFO: [Yeni] Potential müþteri ekranýnda asetli olan versiyon deðiþtirildi.
+ OFO: [Düzeltme] Teslimat irsaliyesi yazdýrýlýrken artýk ilk sayfadan sonraki sayfalar(20 üründen sonra ikinci sayfaya geçiyor)
+	düzgün çýkýyor. Ayrýca her yazdýrýlan sayfaya mevcutSayfa/ToplamSayfaSayýsý kýsmý eklendi.
+ 
+ 
+ BAT1.0.2855
+ ---------------------------------------
+ OFO: [Düzeltme] Bir müþteri pasif yapýlýp ticari bilgileri güncellenince Rota detayýnda location_id si null olan kayýtlar oluþmuyordu, artýk oluþmuyor.
+ HK : [Düzeltme] Mal Kabul Ýrs / Mal Kabulu yap arama ekranýnda hata vardý, düzeltildi. 
+
+
+ BAT1.0.2854
+ ---------------------------------------
+ HK: [Düzeltme] Alým iade irsalyesi/faturasý price list ve employee alanlarý boþ geldiði için güncellenemiyordu. 
+ HK: [Güncelleme] Servis / Varlýk modülünün güncel hali uygulandý. 
+ HK: [Düzeltme] Borç düzenleme ekranýnda üst müþterisi olan kayýtlar gelmeyecek, üst müþteride borç düzeleme yapýldýðýnda
+	 altýndaki müþterilerin de düzenlemesi yapýlmýþ olacak ( iyi test gerek)
+ HK: [Güncelleme] DynamicCub raporlarý ekranýnda excele aktar için kullanýlan activex kontrolünün 
+	 codebehind ý vp ye alýndý.
+	
+
+ BAT1.0.2852 
+ ---------------------------------------
+  HK : [Yeni] DynamiCube raporlarýna toplam göster alaný eklendi. 
+  OFO: [Güncelleme] LGX raporlarýnda numeric fieldlarýn formatlanmasý
+  OFO: [Yeni]: Analiz, kampanya daki müþteri pop-uplarýna label filtresi eklenmesi.
+  HK : [Düzeltme] Ýade kabulunde sql hatasýnýn düzeltilmesi. 
+  HK : [Yeni] Satýþ sip, sat fat/irs girerken müþteri seçtikten sonra cari bilgileri aþaðýda gösteriliyor.
+  
+  
+ BAT1.0.2851 
+ ---------------------------------------
+  HK : [Düzeltme] Araç yüklemede oluþan hatanýn düzeltilmesi.
+  HK : [Düzeltme] Alýþ iade fatruasý dönuþtürmede oluþan hatanýn düzeltilmesi.
+  
+ 
+ BAT1.0.2850 
+ ---------------------------------------
+  HK: [Yeni] Toolbar'a kayýt bilgisi butonu eklendi, ilgili kaydýn oluþturma zamaný,
+      oluþturan personel, güncelleme zamaný vs.. bilgiler pop-up'da göstriliyor.  
+  HK: [Düzeltme] Mesajlarda sonraki sayfa çalýþmýyordu.
+  HK: [Yeni] Ýrsaliye yazdýrmada toplam miktar alaný eklendi.
+  HK: [Güncelleme] Rota detaylarýnda lokasyonu silinmiþ, müþteri kaydý silinmiþ 
+      kayýtlarnda popup açýkdýðýnda gösterilmesi, rotadan çýkarabilmek için.
+  HK: [Düzeltme]  Portal/Duyurular çalýþmýyordu.
+  HK: [Yeni] Araç yükleme pop-up'ýnda son yükleme, son satýþ,onerilen satýþ vs.. baþlýklarý týklandýðýnda deðerler otomatik yükleme 
+      textBox ýna doluyor.
+  HK: [Yeni] Stok transferine yazdýr butonu kondu. Gonderilcek adama kesilen irsaliye yazdýrýlýyor.
+  HK: [Güncelleme] Merkez müþterinin finansallarý sadece Aktif Þube merkez iken görüntülenebiliyor.
+  HK: [Düzeltme] Borç düzenlemede, ödemelerin toplamý ile toplam borç karþýlaþtýrmasýnda hata oluyordu.
+  OFO: [Yeni] Terminal loglarý sistem yönetiminin altýna eklendi.
+  HK: [Düzeltme] Swap irsaliyesi, zincir maðaza/toplu israliye donuþturde çýkýyordu.
+  HK: [Düzeltme] Servis faturasý açýk hesap için odeme planý oluþturmuyordu, odeme planý olmayan fatura printinde hata veriyordu.
+  HK: [Güncelleme] Depo Ana kayýtlarýnda erp kodu zorunlu. 
+  HK: [Yeni] Tutarlar Arasý - Bedelsiz Farklý Ürün verme kampanyasý .
+  
+  
+ BAT1.0.2849
+ ---------------------------------------
+  HK: [Düzeltme] Fatura,rma,sipariþ,financial kayýtlardaki search'de müþteri kodu - commercial title döndürülüyor. 
+  HK: [Düzeltme] Alýþ iade irs, alýþ iade faturasýnda da güncelleme açýldý.
+  HK: [Yeni] DynamiCube da eski cub dosyalarýnýn otomatik silinmesi, küp tanýmýnda detaylara Aggregate fonksiyonlarýnýn eklenmesi.
+  HK: [Güncelleme] Rapor yapýsý deðiþti.
+  HK: [Düzeltme] Müþteri aktif yapýlýrken related customer kontrolü yanlýþtý.
+  HK: [Güncelleme] Ana ekranda mesaj gelip gelmediði timer ile kontrol ediliyor,refresh etmeden msj geldiyse görebiliyor.
+  HK: [Güncelleme] DynamiCube rapor tanýmlarý deðiþti, Rapor görüntülemede de seçili raporun açýklmasý varsa altta çýkýyor.
+  
+ 
+ BAT1.0.2848
+ ---------------------------------------
+  HK: [Yeni] Satýþ iade faturasý ve satýþ iade irsaliyesi için güncelleme açýldý (yetkiler verilmedi daha).
+  
+  
+ BAT1.0.2847
+ ---------------------------------------
+  HK: [Yeni] Zincir maðaza ve þubelere kesilen irsaliye/fatura'nýn yazdýrýlmasýnda eðer müþteriye özel ürün kodu
+			 ve ürün adý tanýmý varsa onlarýn gösterilmesi.
+  HK: [Yeni] Mesajlara okundu okunmadý alaný eklenmesi, portal yanýna okunmayan mail varsa mektup iconu
+  HK: [Yeni] Müþteri teminat raporuna distributorlerin eklenmesi
+  HK: [Yeni] Stok hareketlerine Ek yükleme giriþi eklenmesi.
+  HK: [Yeni] Þifre zamaný geçtiyse, zornlu þifre deðiþtirme. 
+  HK: [Yeni] Login de dil seçimi
+  HK: [Yeni] Daha once girilmiþ araç deposu olmayan bir depo varsa, yeni depo giriþinde o deponun 
+			 TAPDK numarasýnýn öneri olarak getirilmesi.
+  HK: [Düzeltme] Alým iade irsaliyesi -> alým iade faturasý dönüþümünde save invoice hatalý çaðýrýmýnýn düzeltilmesi.  
+  HK: [Yeni] DynamiCube Raporlama yapýsýnýn eklenmesi
+  HK: [Yeni] Versiyon History tutulmaya baþlanmasý.
+  
+ 
